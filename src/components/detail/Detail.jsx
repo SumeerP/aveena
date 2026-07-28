@@ -10,7 +10,7 @@ import {
 } from '../actions/panels.jsx';
 import { STAGES, stageIndex } from '../../constants/stages.js';
 import { PROTOCOL_ATTESTATIONS } from '../../constants/products.js';
-import { userName } from '../../domain/users.js';
+import { userName, userRoleShort } from '../../domain/users.js';
 import { now, daysBetween, fmtDate } from '../../domain/dates.js';
 import { pendingForRole } from '../../domain/queue.js';
 import { getShipments, fmtBoxes, resolveCategory } from '../../domain/autofill.js';

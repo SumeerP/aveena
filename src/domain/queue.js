@@ -1,4 +1,5 @@
 import { STAGES, stageIndex } from '../constants/stages.js';
+import { userName, userRoleShort } from './users.js';
 
 export function pendingForRole(opp, role) {
   const tasks = [];

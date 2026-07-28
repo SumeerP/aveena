@@ -6,7 +6,7 @@ import { STORAGE_TEMPS, CERTIFICATIONS } from '../../constants/products.js';
 import { stageIndex } from '../../constants/stages.js';
 import { ROLES } from '../../constants/roles.js';
 import { userName } from '../../domain/users.js';
-import { fmtDate } from '../../domain/dates.js';
+import { fmtDate, now } from '../../domain/dates.js';
 import {
   deriveDiscoveryContext, matchStorageTemp, resolveCategory, getShipments, fmtBoxes,
 } from '../../domain/autofill.js';

@@ -4,7 +4,7 @@ import {
   initSpecComponents,
   RETURN_TARGETS,
 } from '../domain/workflow.js';
-import { now } from '../domain/dates.js';
+import { now, act } from '../domain/dates.js';
 import { stageIndex, STAGES } from '../constants/stages.js';
 import { SEED_OPPS } from '../domain/seed.js';
 import { getShipments, fmtBoxes } from '../domain/autofill.js';
